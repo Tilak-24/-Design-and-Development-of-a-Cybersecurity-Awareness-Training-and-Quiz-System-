@@ -1,77 +1,126 @@
-# -Design-and-Development-of-a-Cybersecurity-Awareness-Training-and-Quiz-System-
+# Cybersecurity Awareness Training and Quiz System
+*A Capstone Design & Development Project*
 
+## 1. Overview
+This project presents a web-based **Cybersecurity Awareness Training and Quiz System** designed to help general users learn essential cybersecurity practices. The platform delivers short learning modules, real-world scenarios, multiple-choice quizzes, scoring, and feedback.  
+It is developed as a **group capstone project** involving five students.
 
-# 1. Overview:
-The project is intended to provide a simple cybersecurity awareness training and quiz platform for general users. This is a group project in which 5 people will be involved. The system will help users learn basic cybersecurity practices through short learning modules, sample scenarios, quizzes, scores and feedback.
+---
 
-# 2. Client Needs and Problem Context:
-Cybersecurity awareness is important because many security incidents begin with simple user mistakes, such as weak passwords, unsafe links, suspicious attachments, or poor handling of personal information. The client needs a simple educational prototype that can present basic cybersecurity topics, test user understanding, and show progress or quiz results. The project does not require advanced security tools, live phishing campaigns, or complex machine learning. It should focus on awareness, learning, quiz management, reporting and a clear final demonstration.
+## 2. Client Needs & Problem Context
+Many cybersecurity incidents originate from simple user mistakes—weak passwords, unsafe browsing, phishing links, or mishandling personal information.  
+The client requires an educational prototype that:
 
-# 4. Project Purpose and Objectives 
-The purpose of this project is to design and develop a simple web-based cybersecurity awareness training and quiz system that helps users learn basic online safety concepts and check their understanding through short quizzes. 
-Objectives: 
-• Design a simple database for users, training topics, quiz questions, answers, scores, and completion status. 
-• Develop user screens for viewing training modules, attempting quizzes, and receiving feedback. 
-• Develop administrator screens for adding or editing topics, questions, and quiz options. 
-• Create simple reports showing user scores, completed modules, and areas where users need 
-improvement. 
-• Test the prototype using sample users and sample cybersecurity awareness content. 
+- Introduces basic cybersecurity concepts  
+- Tests user understanding through quizzes  
+- Displays progress, scores, and feedback  
+- Supports simple administration of training content  
 
-# 5. High-Level Requirements 
-The system should be simple, safe, and easy to demonstrate. The following high-level requirements are recommended: 
-• Basic login or demo user access for learner and administrator roles. 
-• Training module pages covering simple topics such as password safety, phishing awareness, safe browsing, 
-multi-factor authentication, and data privacy. 
-• Multiple-choice quiz functionality for each training module. 
-• Automatic calculation of quiz scores and basic feedback after completion. 
-• Administrator function to add, edit, or delete training topics and quiz questions. 
-• User progress page showing completed modules, scores, and quiz attempts. 
-• Simple dashboard or report page showing total users, average score, pass/fail status, and most difficult 
-topics. 
-• Optional printable completion certificate or completion summary for demonstration purposes. 
+The system does **not** require advanced security tools, phishing simulations, or machine learning.  
+Its focus is on **awareness, learning, quiz management, reporting, and demonstration**.
 
-# 6. Key Stakeholders 
-The main stakeholders for this project include: 
-• NAPS School of IT as the internal academic client. 
-• Capstone project supervisor and academic assessors. 
-• BIT/MIT capstone students who will design, develop, test, and document the prototype. 
-• Students or staff who may use the system as learners during a demonstration. 
-• Administrators or academic staff who may manage awareness content and view quiz results. 
-• IT support staff who may provide general feedback on usability and cybersecurity relevance. 
+---
 
-# 7. Constraints and Assumptions 
-The project scope should remain controlled so students can complete and demonstrate it within the capstone timeline. 
-• The system is an educational awareness prototype, not a live cybersecurity monitoring or phishing attack tool. 
-• Only sample training content, dummy users, and safe educational examples should be used. 
-• The system does not need to send real phishing emails or connect to real email accounts. 
-• No real passwords, sensitive personal data, or live institutional data should be collected. 
-• The quiz logic should be simple and rule-based; advanced AI or machine learning is not required. 
-• The project can be developed using common web development tools and a simple database. 
-• The final demonstration can use demo accounts, sample modules, quiz questions, and generated reports.
+## 3. Project Purpose & Objectives
+The purpose of this project is to design and develop a functional prototype that improves cybersecurity awareness through structured learning and assessment.
 
-# 9. Expected Benefits 
-The expected benefits of the proposed project include: 
-• Provides students with a realistic and achievable cybersecurity-related capstone project. 
-• Demonstrates practical skills in web development, database design, content management, quiz logic, 
-testing, and reporting. 
-• Improves basic cybersecurity awareness through simple training modules and quiz feedback. 
-• Creates a clear and demo-friendly system that can be presented effectively during the final assessment. 
-• Allows students to show both technical implementation and understanding of cybersecurity awareness 
-principles. 
-• Can be extended later with additional topics, improved reports, or user progress tracking. 
+### Objectives
+- Build a database for users, modules, questions, answers, scores, and completion status  
+- Develop user interfaces for training modules, quizzes, and feedback  
+- Create admin interfaces for managing topics, questions, and quiz options  
+- Generate basic reports on user progress and areas needing improvement  
+- Test the prototype using sample users and sample cybersecurity content  
 
-# 10. Available Required Resources 
-The following resources are sufficient for students to complete the project: 
-• Software: HTML, CSS, JavaScript, PHP/MySQL, Python Flask/Django, SQLite/MySQL, or another approved 
-web development stack. 
-• Content: sample cybersecurity awareness topics, safe sample scenarios, and multiple-choice quiz 
-questions. 
-• Dashboard tools: simple tables, charts, or Bootstrap-based admin pages. 
-• Hardware: standard student laptop or desktop computer. 
-• Data: dummy users, sample quiz attempts, and sample completion records. 
-• Documentation: user stories, database design, screenshots, testing checklist, user guide, and final project report. 
+---
 
-# 11. Any Additional Information 
-This project is intentionally designed to be easy to implement and demonstrate. The minimum viable system should include training topic pages, multiple-choice quizzes, score calculation, feedback, admin question management, and a simple report or progress dashboard. Optional enhancements may include a printable certificate, module completion badges, improved charts, or a small password-strength awareness checker that does not store real passwords. Students should avoid any activity that involves real phishing, real credentials, or live institutional systems. 
+## 4. High-Level Requirements
+The system must remain simple, safe, and easy to demonstrate.
 
-# The End 
+### Core Requirements
+- Basic login or demo access for learners and administrators  
+- Training modules covering password safety, phishing, safe browsing, MFA, and data privacy  
+- Multiple-choice quizzes for each module  
+- Automatic score calculation and feedback  
+- Admin tools to add, edit, or delete topics and questions  
+- User progress page showing completed modules, scores, and attempts  
+- Dashboard/report page summarizing total users, average scores, pass/fail rates, and difficult topics  
+- Optional printable completion certificate  
+
+---
+
+## 5. Key Stakeholders
+- NAPS School of IT (academic client)  
+- Capstone supervisor and assessors  
+- BIT/MIT capstone students (developers and testers)  
+- Learners using the system during demonstrations  
+- Administrators managing content and viewing results  
+- IT support staff providing usability feedback  
+
+---
+
+## 6. Constraints & Assumptions
+To ensure the project remains achievable within the capstone timeline:
+
+- The system is an **awareness prototype**, not a real cybersecurity monitoring tool  
+- Only sample content and dummy users will be used  
+- No real phishing emails or email integrations  
+- No collection of real passwords or sensitive personal data  
+- Quiz logic will be simple and rule-based (no AI/ML)  
+- Development will use common web technologies and a simple database  
+- Demonstrations will use demo accounts and sample reports  
+
+---
+
+## 7. Expected Benefits
+- Provides students with a realistic cybersecurity-focused capstone project  
+- Demonstrates skills in web development, database design, content management, quiz logic, testing, and reporting  
+- Enhances basic cybersecurity awareness through structured learning  
+- Offers a clean, demo-friendly system for final assessment  
+- Shows both technical implementation and understanding of cybersecurity principles  
+- Can be extended with more topics, improved analytics, or enhanced progress tracking  
+
+---
+
+## 8. Required Resources
+
+### Software
+- HTML, CSS, JavaScript  
+- PHP/MySQL or Python (Flask/Django)  
+- SQLite/MySQL  
+- Bootstrap or similar UI framework  
+
+### Content
+- Sample cybersecurity topics  
+- Safe scenarios and multiple-choice questions  
+
+### Tools & Hardware
+- Standard student laptop/desktop  
+- Simple dashboard components (tables, charts)  
+
+### Documentation
+- User stories  
+- Database design  
+- Screenshots  
+- Testing checklist  
+- User guide  
+- Final project report  
+
+---
+
+## 9. Additional Notes
+This project is intentionally scoped for simplicity and demonstration.  
+The minimum viable system includes:
+
+- Training modules  
+- Multiple-choice quizzes  
+- Score calculation  
+- Feedback  
+- Admin question management  
+- Basic reporting/dashboard  
+
+Optional enhancements include certificates, badges, improved charts, or a simple password-strength checker (without storing real passwords).  
+Students must avoid any activities involving real phishing, real credentials, or live institutional systems.
+
+---
+
+## End
